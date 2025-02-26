@@ -43,8 +43,6 @@ prediction_on_test_data = model.predict(X_test_features)
 
 accuracy_on_test_data = accuracy_score(Y_test, prediction_on_test_data)
 
-
-
 input_mail = ["Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's"]
 input_data_features = feature_extraction.transform(input_mail)
 prediction = model.predict(input_data_features)
